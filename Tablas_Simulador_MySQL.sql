@@ -246,10 +246,10 @@ INSERT INTO `examen_teorico` (`Id_Examen`, `Nombre`, `Descripcion`, `Tiempo_Exam
 
 CREATE TABLE IF NOT EXISTS `imagen` (
   `Id_Imagen` int(5) NOT NULL AUTO_INCREMENT,
-  `normal` varchar(50) NOT NULL,
-  `organico` varchar(50) NOT NULL,
-  `inorganico` varchar(50) NOT NULL,
-  `bn` varchar(50) NOT NULL,
+  `normal` varchar(50),
+  `organico` varchar(50),
+  `inorganico` varchar(50),
+  `bn` varchar(50),
   `Id_Objeto` int(5),
   `Id_Examen` int(11),
   PRIMARY KEY (`Id_Imagen`),
