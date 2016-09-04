@@ -82,7 +82,7 @@ INSERT INTO `tipo_arma` (`Descripcion`) VALUES
 
 CREATE TABLE IF NOT EXISTS `objeto_prohibido` (
   `Id_Objeto` int(5) NOT NULL AUTO_INCREMENT,
-  `Nombre` varchar(25) NOT NULL,
+  `Nombre` varchar(25),
   `posx` int(5),
   `posy` int(5),
   `alto` int(5),
